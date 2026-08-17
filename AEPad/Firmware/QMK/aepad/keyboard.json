@@ -4,15 +4,23 @@
     "maintainer": "aabdullahjaami71-afk",
     "bootloader": "rp2040",
     "diode_direction": "ROW2COL",
-    "features": {
-        "bootmagic": false,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": true
-    },
     "matrix_pins": {
         "cols": ["GP29","GP4", "GP3"],
         "rows": ["GP26","GP27","GP28"]
+    },
+    "encoder": {
+        "enabled": true,
+        "rotary": [
+            {"pin_a": "GP21", "pin_b": "GP20", "resolution": 4}
+        ]
+    },
+    "features": {
+        "bootmagic": false,
+        "encoder": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "oled": true
     },
     "processor": "RP2040",
     "url": "https://github.com/aabdullahjaami71-afk/AEPad",
@@ -22,7 +30,7 @@
         "vid": "0xFEED"
     },
     "layouts": {
-        "LAYOUT_aepad2026": {
+        "LAYOUT_ortho_3x3": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},
