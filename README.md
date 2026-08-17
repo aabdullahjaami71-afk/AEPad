@@ -1,7 +1,10 @@
+
 # AEPad
 
 The AEPad is a custom macropad designed for video editors. I made this macropad to make it easier and accelerate the time it takes 
 for people to edit in video editing software. This macropad uses the RP2040 MCU, so be sure to put your MCU into bootloader mode to flash your own code onto the MCU
+
+<img width="577" height="695" alt="Screenshot 2026-08-17 at 7 52 35 PM" src="https://github.com/user-attachments/assets/b8e74dbb-2119-4b62-ab22-93620df0106a" />
 
 <img width="747" height="512" alt="Screenshot 2026-07-26 at 11 14 30 PM" src="https://github.com/user-attachments/assets/b56d6a4f-5afc-4ba6-b9b5-c41329fb6d2a" />
 
